@@ -31,7 +31,7 @@ function fruitful_body_classes( $classes ) {
 		$classes[] = 'group-blog';
 	}
 	
-	if (class_exists('Woocommerce')) {
+	if ( class_exists( 'WooCommerce' ) ) {
 		if (is_shop()) $classes[] = 'shop-page ';
 	} 
 	

@@ -1215,7 +1215,7 @@ class fruitful_theme_options {
 		);
 
 		/*Woocommerce*/
-		if ( class_exists( 'Woocommerce' ) ) {
+		if ( class_exists( 'WooCommerce' ) ) {
 			$this->sections['woo'] = array(
 				'title'  => __( 'Woocommerce', 'fruitful' ),
 				'id'     => 'woo',
