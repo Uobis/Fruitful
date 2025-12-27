@@ -42,6 +42,17 @@ class cmb_Meta_Box_field {
 	public $value;
 
 	/**
+	 * Escaped version of the field value.
+	 *
+	 * Some field types populate this lazily; declaring it prevents dynamic
+	 * property notices in PHP 8.2+.
+	 *
+	 * @var mixed
+	 * @since 1.2.1
+	 */
+	public $escaped_value;
+
+	/**
 	 * Constructs our field object
 	 * @since 1.1.0
 	 * @param array $field_args  Field arguments

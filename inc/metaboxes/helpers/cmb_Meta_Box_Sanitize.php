@@ -19,6 +19,20 @@ class cmb_Meta_Box_Sanitize {
 	public $value;
 
 	/**
+	 * Metabox object ID.
+	 *
+	 * @var int|string
+	 */
+	public $object_id;
+
+	/**
+	 * Metabox object type.
+	 *
+	 * @var string
+	 */
+	public $object_type;
+
+	/**
 	 * Setup our class vars
 	 * @since 1.1.0
 	 * @param object $field A CMB field object

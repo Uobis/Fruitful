@@ -25,6 +25,17 @@ class cmb_Meta_Box_types {
 	 */
 	public $field;
 
+	/**
+	 * Cached list of valid image extensions.
+	 *
+	 * Used by {@see cmb_Meta_Box_types::is_valid_img_ext()} to avoid repeatedly
+	 * re-fetching the filtered list.
+	 *
+	 * @var array|null
+	 * @since 1.2.1
+	 */
+	public $valid;
+
 	public function __construct( $field ) {
 		$this->field = $field;
 	}

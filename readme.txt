@@ -8,6 +8,8 @@ We want to make our product even better and better and we need users support and
 
 Works perfect with WooCommerce till version 3.4
 
+PHP requirement: PHP 8.0 or newer.
+
 Fruitful PRO – WordPress responsive theme contains all the options of FREE version plus more options like ability to change width for container grid and support latest WooCommerce version. 
 
 Find all the details by link https://fruitfulcode.com/product/fruitful-pro
